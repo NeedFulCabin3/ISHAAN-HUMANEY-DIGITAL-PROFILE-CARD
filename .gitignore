@@ -1,0 +1,12 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Integrated development environments
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.log
