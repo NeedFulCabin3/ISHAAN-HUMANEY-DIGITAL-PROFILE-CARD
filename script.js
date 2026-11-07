@@ -1,7 +1,3 @@
-/*
-  POCKET PASS — RETRO FUTURE AIRLINES
-  Personalize the profile values below. Use a local image path or image URL for photo.
-*/
 const profile = {
   name: "ISHAAN HUMANEY",
   role: "AI & ML STUDENT",
