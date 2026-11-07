@@ -198,3 +198,4 @@ function initializePocketPass() {
 }
 
 document.addEventListener("DOMContentLoaded", initializePocketPass);
+
