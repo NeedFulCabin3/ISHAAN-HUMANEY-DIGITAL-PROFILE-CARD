@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#24103f" />
+  <meta name="description" content="Connect with my Portfolio, GitHub, LinkedIn, and more." />
+  <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://needfulcabin3.github.io/NEURAL-AIR/" /> <!-- Update with your actual live URL -->
+  <meta property="og:title" content="ISHAAN HUMANEY - DIGITAL PROFILE CARD" />
+  <meta property="og:description" content="Connect with my Portfolio, GitHub, LinkedIn, and more." />
+  <meta property="og:image" content="https://needfulcabin3.github.io/profile.webp" /> <!-- Must be an absolute URL -->
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://needfulcabin3.github.io/NEURAL-AIR/" /> <!-- Update with your actual live URL -->
+  <meta name="twitter:title" content="ISHAAN HUMANEY - DIGITAL PROFILE CARD" />
+  <meta name="twitter:description" content="Connect with my Portfolio, GitHub, LinkedIn, and more." />
+  <meta name="twitter:image" content="https://needfulcabin3.github.io/profile.webp" /> <!-- Must be an absolute URL -->
+  <title>ISHAAN HUMANEY - DIGITAL PROFILE CARD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪪</text></svg>">
+  <script src="script.js" defer></script>
+  <link
+    rel="preload"
+    as="image"
+    href="./profile.webp"
+    fetchpriority="high"
+>
+</head>
+<body>
+  <main class="viewport-shell" aria-label="Pocket Pass digital identity card">
+    <div class="sky-orb sky-orb-one" aria-hidden="true"></div>
+    <div class="sky-orb sky-orb-two" aria-hidden="true"></div>
+    <div class="sky-grid" aria-hidden="true"></div>
+    <div class="ambient-star star-one" aria-hidden="true">
+      ✳
+    </div>
+
+    <article class="pass-card" id="passCard" aria-label="Personal boarding pass">
+      <div class="pass-gloss" aria-hidden="true"></div>
+      <div class="corner-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+
+      <section class="ticket-face">
+        <header class="pass-header pass-layer">
+          <div class="airline-lockup">
+            <div class="airline-mark" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <path d="M5 24.5 34 5l-8.5 29-6.2-11.1L5 24.5Z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/>
+                <path d="m19.4 22.9 9-7.1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="31.5" cy="8" r="2" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="airline-copy">
+              <p class="airline-name">NEURAL <b>AIR</b></p>
+              <p class="airline-subtitle">
+                WHERE MINDS MEET MACHINES
+              </p>
+            </div>
+          </div>
+          <div class="flight-badge"><span>DEVELOPER CLASS</span></div>
+        </header>
+
+        <section class="quote-panel pass-layer" aria-label="Profile quote">
+          <div class="quote-kicker"><span>IN-FLIGHT THOUGHT</span><span class="quote-ref">TRANSMISSION / 08.5</span></div>
+          <p id="profileQuote">Intelligence is the bridge between human imagination and digital reality.</p>
+          <div class="quote-signal" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        </section>
+
+        <section class="route-panel pass-layer" aria-label="Personal flight route">
+          <div class="route-heading"><span>PERSONAL FLIGHT PLAN</span><span>NON-STOP <b>✦</b></span></div>
+          <div class="route-main">
+            <div class="route-point">
+              <span class="micro-label">DEPARTURE</span>
+              <strong id="originCode">HUM</strong>
+              <small id="originLabel">HUMAN IDEAS</small>
+            </div>
+            <div class="route-connector" aria-hidden="true">
+              <span class="route-line"></span>
+              <svg viewBox="0 0 40 28"><path d="m2 15 13-2.4L27 3l3 1-7 9.2 14 2v2l-15.5 1-4.7 6.7-2-.4 1.8-7.1L2 17v-2Z" fill="currentColor"/></svg>
+              <span class="route-line"></span>
+            </div>
+            <div class="route-point route-destination">
+              <span class="micro-label">DESTINATION</span>
+              <strong id="destinationCode">AID</strong>
+              <small id="destinationLabel">AI DIMENSION</small>
+            </div>
+          </div>
+          <div class="flight-meta">
+            <div><span>FLIGHT</span><b id="flightCode">NV 026</b></div>
+            <div><span>GATE</span><b id="gateCode">08</b></div>
+            <div><span>SEAT</span><b id="seatCode">A1</b></div>
+            <div><span>BOARDING</span><b>NOW</b></div>
+          </div>
+          <div class="route-decoration" aria-hidden="true"></div>
+        </section>
+
+        <section class="identity-panel pass-layer" aria-label="Passenger profile">
+          <div class="portrait-frame">
+            <div class="portrait-placeholder" id="portraitPlaceholder" aria-label="Profile photo placeholder">
+              <svg viewBox="0 0 80 80" role="img" aria-label="Person silhouette"><circle cx="40" cy="27" r="14" fill="currentColor" opacity=".9"/><path d="M13 70c2-16 12-25 27-25s25 9 27 25" fill="currentColor" opacity=".9"/></svg>
+              <span>PHOTO / ID</span>
+            </div>
+            <img class="portrait-image" id="profilePhoto" alt="Profile portrait" />
+            <span class="portrait-corner" aria-hidden="true"></span>
+            <span class="portrait-scan" aria-hidden="true"></span>
+          </div>
+          <div class="identity-copy">
+            <p class="eyebrow">PASSENGER / DEVELOPER CLASS</p>
+            <h1 id="profileName">YOUR NAME<span>.</span></h1>
+            <p class="identity-role" id="profileRole">AI & ML STUDENT</p>
+            <div
+              class="tag-list"
+              id="profileTags"
+              aria-label="Professional specialties">
+          </div>
+          </div>
+          <div class="security-stamp" aria-label="Original passenger issue"><span>NF</span><small>ISSUED</small></div>
+        </section>
+      </section>
+
+      <div class="perforation" aria-hidden="true">
+        <span class="tear-notch notch-left"></span>
+        <span class="tear-line"></span>
+        <span class="tear-label">DETACH TO CONNECT</span>
+        <span class="tear-line"></span>
+        <span class="tear-notch notch-right"></span>
+      </div>
+
+      <section class="ticket-stub" aria-label="Social connection gates">
+        <div class="stub-heading"><span>CONNECTION GATES</span><span>SELECT YOUR CHANNEL <b>↗</b></span></div>
+        <nav class="social-grid" aria-label="Social links">
+          <a class="social-link" data-network="email" href="mailto:ishaanhumaney@outlook.com" aria-label="Email">
+            <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4.5 7 7.5 6 7.5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>EMAIL</span>
+          </a>
+          <a class="social-link" data-network="instagram" href="https://www.instagram.com/ishaan_humaney/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.6" cy="6.7" r="1.1" fill="currentColor"/></svg></span><span>INSTAGRAM</span>
+          </a>          
+          <a class="social-link" data-network="portfolio" href="https://needfulcabin3.github.io/ISHAAN-HUMANEY-PORTFOLIO---Royal-Edition/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio website">
+            <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.8 12h16.4M12 3.3c2.1 2.3 3.1 5.2 3.1 8.7s-1 6.4-3.1 8.7c-2.1-2.3-3.1-5.2-3.1-8.7s1-6.4 3.1-8.7Z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span><span>PORTFOLIO</span>
+          </a>
+          <a class="social-link" data-network="linkedin" href="https://www.linkedin.com/in/ishaan-humaney/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.5 8.8H3.7V20h2.8V8.8ZM5.1 7.3a1.7 1.7 0 1 0 0-3.4 1.7 1.7 0 0 0 0 3.4ZM20.3 13.6c0-3-1.6-4.9-4.3-4.9-1.3 0-2.4.7-2.9 1.6V8.8h-2.8V20h2.8v-6.2c0-1.6.6-2.8 2.1-2.8 1.4 0 2.1 1 2.1 2.8V20h3v-6.4Z" fill="currentColor"/></svg></span><span>LINKEDIN</span>
+          </a>          
+          <a class="social-link" data-network="github" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.2a8.8 8.8 0 0 0-2.8 17.1c.4.1.6-.2.6-.4v-1.6c-2.5.5-3-1.1-3-1.1-.4-1-.9-1.2-.9-1.2-.8-.5.1-.5.1-.5.9.1 1.3.9 1.3.9.8 1.3 2 .9 2.5.7.1-.6.3-.9.5-1.1-2-.2-4.1-1-4.1-4.4 0-1 .4-1.8.9-2.4-.1-.2-.4-1.1.1-2.3 0 0 .7-.2 2.4.9a8.4 8.4 0 0 1 4.4 0c1.7-1.1 2.4-.9 2.4-.9.5 1.2.2 2.1.1 2.3.6.6.9 1.4.9 2.4 0 3.4-2.1 4.2-4.1 4.4.3.2.6.8.6 1.6v2.3c0 .2.2.5.6.4A8.8 8.8 0 0 0 12 3.2Z" fill="currentColor"/></svg></span><span>GITHUB</span>
+          </a>
+        </nav>
+        <footer class="stub-footer">
+          <div class="barcode-wrap"><div class="barcode" id="barcode" aria-hidden="true"></div><span id="passId">NV-026-001</span></div>
+          <div class="footer-brand">NEURAL AIR <small>SEE YOU OUT THERE</small></div>
+          <button class="copy-pass" id="copyPass" type="button" aria-label="Copy pass ID"><span aria-hidden="true">▣</span> COPY ID</button>
+        </footer>
+      </section>
+      <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    </article>
+  </main>
+</body>
+</html>
