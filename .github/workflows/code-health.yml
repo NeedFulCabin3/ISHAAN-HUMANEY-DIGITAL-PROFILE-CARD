@@ -1,0 +1,21 @@
+name: Code Health Check
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify core file structure
+        run: |
+          test -f index.html
+          test -f style.css
+          test -f script.js
+          echo "All core project files are present and verified."
