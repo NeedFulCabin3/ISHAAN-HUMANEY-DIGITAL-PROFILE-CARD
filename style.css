@@ -1,0 +1,454 @@
+:root{color-scheme:light;}:root{--night:#24103f;}:root{--plum:#43106c;}:root{--v
+iolet:#7628c8;}:root{--violet-bright:#a34de8;}:root{--magenta:#ef2697;}:root{--p
+ink:#ff6ab5;}:root{--sunset:#ff994f;}:root{--tangerine:#ffb45b;}:root{--marigold
+:#ffd36c;}:root{--paper:#fff5e9;}:root{--ink:#351044;}:root{--muted-ink:#784e76;
+}:root{--line:rgba(71, 20, 102, .2);}:root{--display:"Space Grotesk", "Trebuchet
+ MS", system-ui, sans-serif;}:root{--mono:"DM Mono", "Courier New", monospace;}*
+{box-sizing:border-box;}html, body{width:100%;}html, body{height:100%;}html, bod
+y{margin:0;}html, body{overflow:hidden;}body{font-family:var(--display);}body{ba
+ckground:#d6d9f8;}body{color:var(--paper);}body{overscroll-behavior:none;}body{-
+webkit-tap-highlight-color:transparent;}button, a{font:inherit;}[class~="viewpor
+t-shell"]{position:relative;}[class~="viewport-shell"]{isolation:isolate;}[class
+~="viewport-shell"]{display:grid;}[class~="viewport-shell"]{place-items:center;}
+[class~="viewport-shell"]{width:100%;}[class~="viewport-shell"]{height:100vh;}[c
+lass~="viewport-shell"]{height:100svh;}[class~="viewport-shell"]{height:100dvh;}
+[class~="viewport-shell"]{padding:max(10px, env(safe-area-inset-top)) max(10px, 
+env(safe-area-inset-right)) max(10px, env(safe-area-inset-bottom)) max(10px, env
+(safe-area-inset-left));}[class~="viewport-shell"]{overflow:hidden;}[class~="vie
+wport-shell"]{background:radial-gradient(ellipse at 18% 17%, rgba(255,255,255,.9
+) 0 4%, transparent 35%),
+    radial-gradient(ellipse at 84% 80%, rgba(255,169,191,.7), transparent 38%),
+    radial-gradient(ellipse at 82% 15%, rgba(255,255,255,.72), transparent 26%),
+    linear-gradient(145deg, #d9e7ff 0%, #c5c9f4 45%, #efc9e5 100%);}[class~="vie
+wport-shell::before,
+.viewport-shell::after"]{content:"";}[class~="viewport-shell::before,
+.viewport-shell::after"]{position:absolute;}[class~="viewport-shell::before,
+.viewport-shell::after"]{pointer-events:none;}[class~="viewport-shell::before,
+.viewport-shell::after"]{z-index:-2;}[class~="viewport-shell::before"]{width:min
+(110vw, 850px);}[class~="viewport-shell::before"]{aspect-ratio:1;}[class~="viewp
+ort-shell::before"]{border:1px solid rgba(255,255,255,.42);}[class~="viewport-sh
+ell::before"]{border-radius:50%;}[class~="viewport-shell::before"]{transform:tra
+nslate(30%, 28%);}[class~="viewport-shell::before"]{box-shadow:0 0 0 28px rgba(2
+55,255,255,.08), 0 0 0 74px rgba(255,255,255,.055);}[class~="viewport-shell::aft
+er"]{inset:0;}[class~="viewport-shell::after"]{opacity:.22;}[class~="viewport-sh
+ell::after"]{z-index:-1;}[class~="viewport-shell::after"]{background-image:radia
+l-gradient(rgba(72,47,123,.32) .55px, transparent .55px);}[class~="viewport-shel
+l::after"]{background-size:7px 7px;}[class~="viewport-shell::after"]{mask-image:
+linear-gradient(110deg, black, transparent 42%, transparent 70%, black);}[class~
+="sky-orb"]{position:absolute;}[class~="sky-orb"]{z-index:-1;}[class~="sky-orb"]
+{border-radius:50%;}[class~="sky-orb"]{filter:blur(1px);}[class~="sky-orb"]{poin
+ter-events:none;}[class~="sky-orb-one"]{width:min(58vw, 420px);}[class~="sky-orb
+-one"]{aspect-ratio:1;}[class~="sky-orb-one"]{top:-18%;}[class~="sky-orb-one"]{l
+eft:-16%;}[class~="sky-orb-one"]{background:radial-gradient(circle at 35% 35%, r
+gba(255,255,255,.58), rgba(255,255,255,0) 68%);}[class~="sky-orb-two"]{width:min
+(60vw, 460px);}[class~="sky-orb-two"]{aspect-ratio:1;}[class~="sky-orb-two"]{bot
+tom:-25%;}[class~="sky-orb-two"]{right:-20%;}[class~="sky-orb-two"]{background:r
+adial-gradient(circle, rgba(244,116,191,.25), transparent 68%);}[class~="sky-gri
+d"]{position:absolute;}[class~="sky-grid"]{z-index:-1;}[class~="sky-grid"]{width
+:min(110vw, 780px);}[class~="sky-grid"]{height:165.00pt;}[class~="sky-grid"]{bot
+tom:-115px;}[class~="sky-grid"]{opacity:.16;}[class~="sky-grid"]{transform:persp
+ective(240px) rotateX(58deg);}[class~="sky-grid"]{background-image:linear-gradie
+nt(rgba(89,50,157,.42) 1px, transparent 1px), linear-gradient(90deg, rgba(89,50,
+157,.42) 1px, transparent 1px);}[class~="sky-grid"]{background-size:30px 30px;}[
+class~="sky-grid"]{pointer-events:none;}[class~="ambient-star"]{position:absolut
+e;}[class~="ambient-star"]{z-index:-1;}[class~="ambient-star"]{color:rgba(255,25
+5,255,.84);}[class~="ambient-star"]{text-shadow:0 0 14px rgba(255,255,255,.9);}[
+class~="ambient-star"]{pointer-events:none;}[class~="star-one"]{top:13%;}[class~
+="star-one"]{left:11%;}[class~="star-one"]{font-size:0.2083in;}[class~="star-two
+"]{right:10%;}[class~="star-two"]{bottom:14%;}[class~="star-two"]{font-size:0.17
+71in;}[class~="pass-card"]{--tilt-x:0deg;}[class~="pass-card"]{--tilt-y:0deg;}[c
+lass~="pass-card"]{--shine-x:50%;}[class~="pass-card"]{--shine-y:40%;}[class~="p
+ass-card"]{position:relative;}[class~="pass-card"]{display:flex;}[class~="pass-c
+ard"]{flex-direction:column;}[class~="pass-card"]{width:min(402px, 100%);}[class
+~="pass-card"]{height:min(748px, 100%);}[class~="pass-card"]{min-height:0;}[clas
+s~="pass-card"]{overflow:hidden;}[class~="pass-card"]{isolation:isolate;}[class~
+="pass-card"]{border:1px solid rgba(255,255,255,.72);}[class~="pass-card"]{borde
+r-radius:25px;}[class~="pass-card"]{background:linear-gradient(145deg, rgba(255,
+255,255,.4), transparent 30%), #e94b9d;}[class~="pass-card"]{box-shadow:0 34px 7
+5px rgba(46,25,89,.24), 0 12px 26px rgba(69,29,105,.2), 0 2px 5px rgba(47,16,79,
+.13), inset 0 1px 0 rgba(255,255,255,.95), inset 0 -1px 0 rgba(62,14,93,.18);}[c
+lass~="pass-card"]{transform:perspective(1300px) rotateX(var(--tilt-x)) rotateY(
+var(--tilt-y)) translateZ(0);}[class~="pass-card"]{transform-style:preserve-3d;}
+[class~="pass-card"]{transition:transform .3s cubic-bezier(.2,.7,.2,1), box-shad
+ow .3s ease;}[class~="pass-card"]{will-change:transform;}[class~="pass-card::bef
+ore"]{content:"";}[class~="pass-card::before"]{position:absolute;}[class~="pass-
+card::before"]{inset:7px;}[class~="pass-card::before"]{z-index:8;}[class~="pass-
+card::before"]{border:1px solid rgba(255,255,255,.23);}[class~="pass-card::befor
+e"]{border-radius:19px;}[class~="pass-card::before"]{pointer-events:none;}[class
+~="pass-card::before"]{transform:translateZ(12px);}[class~="pass-card::after"]{c
+ontent:"";}[class~="pass-card::after"]{position:absolute;}[class~="pass-card::af
+ter"]{inset:0;}[class~="pass-card::after"]{z-index:7;}[class~="pass-card::after"
+]{border-radius:inherit;}[class~="pass-card::after"]{pointer-events:none;}[class
+~="pass-card::after"]{background:radial-gradient(260px circle at var(--shine-x) 
+var(--shine-y), rgba(255,255,255,.3), transparent 62%);}[class~="pass-card::afte
+r"]{mix-blend-mode:screen;}[class~="pass-gloss"]{position:absolute;}[class~="pas
+s-gloss"]{z-index:6;}[class~="pass-gloss"]{top:-38%;}[class~="pass-gloss"]{left:
+-78%;}[class~="pass-gloss"]{width:55%;}[class~="pass-gloss"]{height:175%;}[class
+~="pass-gloss"]{transform:rotate(24deg);}[class~="pass-gloss"]{background:linear
+-gradient(90deg, transparent, rgba(255,255,255,.13), transparent);}[class~="pass
+-gloss"]{pointer-events:none;}[class~="pass-gloss"]{animation:gloss-drift 10s ea
+se-in-out infinite;}[class~="corner-orbit"]{position:absolute;}[class~="corner-o
+rbit"]{z-index:1;}[class~="corner-orbit"]{width:126.00pt;}[class~="corner-orbit"
+]{height:126.00pt;}[class~="corner-orbit"]{top:96px;}[class~="corner-orbit"]{rig
+ht:-74px;}[class~="corner-orbit"]{border:1px solid rgba(255,255,255,.14);}[class
+~="corner-orbit"]{border-radius:50%;}[class~="corner-orbit"]{pointer-events:none
+;}[class~="corner-orbit span"]{position:absolute;}[class~="corner-orbit span"]{i
+nset:12px;}[class~="corner-orbit span"]{border:1px dashed rgba(255,255,255,.13);
+}[class~="corner-orbit span"]{border-radius:50%;}[class~="corner-orbit span:nth-
+child(2)"]{inset:34px;}[class~="corner-orbit span:nth-child(2)"]{border-style:so
+lid;}[class~="corner-orbit span:nth-child(3)"]{inset:65px;}[class~="corner-orbit
+ span:nth-child(3)"]{background:rgba(255,255,255,.12);}[class~="corner-orbit spa
+n:nth-child(3)"]{border:0;}[class~="ticket-face"]{position:relative;}[class~="ti
+cket-face"]{z-index:2;}[class~="ticket-face"]{display:flex;}[class~="ticket-face
+"]{flex:1 1 auto;}[class~="ticket-face"]{flex-direction:column;}[class~="ticket-
+face"]{min-height:0;}[class~="ticket-face"]{gap:clamp(7px, 1.35svh, 12px);}[clas
+s~="ticket-face"]{padding:clamp(16px, 4.1vw, 21px) clamp(16px, 4.4vw, 22px) 12px
+;}[class~="ticket-face"]{overflow:hidden;}[class~="ticket-face"]{background:radi
+al-gradient(circle at 90% 7%, rgba(255,255,255,.2), transparent 23%),
+    radial-gradient(circle at 0 90%, rgba(255,109,180,.3), transparent 34%),
+    linear-gradient(158deg, #f13c9d 0%, #c52baf 34%, #7929c7 72%, #4b1b87 100%);
+}[class~="ticket-face::before"]{content:"";}[class~="ticket-face::before"]{posit
+ion:absolute;}[class~="ticket-face::before"]{inset:0;}[class~="ticket-face::befo
+re"]{z-index:-1;}[class~="ticket-face::before"]{opacity:.16;}[class~="ticket-fac
+e::before"]{pointer-events:none;}[class~="ticket-face::before"]{background-image
+:linear-gradient(115deg, transparent 0 46%, rgba(255,255,255,.38) 46.2%, transpa
+rent 46.7%), radial-gradient(rgba(255,255,255,.7) .7px, transparent .7px);}[clas
+s~="ticket-face::before"]{background-size:100% 100%, 9px 9px;}[class~="ticket-fa
+ce::after"]{content:"";}[class~="ticket-face::after"]{position:absolute;}[class~
+="ticket-face::after"]{width:157.50pt;}[class~="ticket-face::after"]{height:157.
+50pt;}[class~="ticket-face::after"]{right:-94px;}[class~="ticket-face::after"]{t
+op:34%;}[class~="ticket-face::after"]{border:1px solid rgba(255,255,255,.17);}[c
+lass~="ticket-face::after"]{border-radius:50%;}[class~="ticket-face::after"]{box
+-shadow:0 0 0 15px rgba(255,255,255,.035), 0 0 0 31px rgba(255,255,255,.025);}[c
+lass~="ticket-face::after"]{pointer-events:none;}[class~="pass-layer"]{transform
+:translateZ(18px);}[class~="pass-header"]{position:relative;}[class~="pass-heade
+r"]{z-index:2;}[class~="pass-header"]{display:flex;}[class~="pass-header"]{justi
+fy-content:space-between;}[class~="pass-header"]{align-items:center;}[class~="pa
+ss-header"]{gap:10px;}[class~="pass-header"]{flex:0 0 auto;}[class~="airline-loc
+kup"]{display:flex;}[class~="airline-lockup"]{align-items:center;}[class~="airli
+ne-lockup"]{min-width:0;}[class~="airline-lockup"]{gap:9px;}[class~="airline-mar
+k"]{display:grid;}[class~="airline-mark"]{place-items:center;}[class~="airline-m
+ark"]{width:27.75pt;}[class~="airline-mark"]{height:27.75pt;}[class~="airline-ma
+rk"]{flex:0 0 37px;}[class~="airline-mark"]{border:1px solid rgba(255,255,255,.6
+2);}[class~="airline-mark"]{border-radius:12px;}[class~="airline-mark"]{color:#f
+ff;}[class~="airline-mark"]{background:linear-gradient(145deg, rgba(255,255,255,
+.23), rgba(255,255,255,.06));}[class~="airline-mark"]{box-shadow:inset 0 1px 0 r
+gba(255,255,255,.35), 0 4px 12px rgba(60,9,91,.13);}[class~="airline-mark svg"]{
+width:20.25pt;}[class~="airline-mark svg"]{height:20.25pt;}[class~="airline-name
+"]{margin:0;}[class~="airline-name"]{color:#fff;}[class~="airline-name"]{font-si
+ze:0.1563in;}[class~="airline-name"]{font-weight:700;}[class~="airline-name"]{le
+tter-spacing:.095em;}[class~="airline-name"]{line-height:1.05;}[class~="airline-
+name b"]{color:#ffd66f;}[class~="airline-subtitle"]{margin:4px 0 0;}[class~="air
+line-subtitle"]{color:rgba(255,255,255,.75);}[class~="airline-subtitle"]{font:7p
+x/1.2 var(--mono);}[class~="airline-subtitle"]{letter-spacing:.12em;}[class~="ai
+rline-subtitle"]{white-space:nowrap;}[class~="flight-badge"]{display:flex;}[clas
+s~="flight-badge"]{align-items:center;}[class~="flight-badge"]{gap:6px;}[class~=
+"flight-badge"]{flex:0 0 auto;}[class~="flight-badge"]{padding:7px 9px;}[class~=
+"flight-badge"]{color:#fff8ff;}[class~="flight-badge"]{border:1px solid rgba(255
+,255,255,.3);}[class~="flight-badge"]{border-radius:999px;}[class~="flight-badge
+"]{background:rgba(63,13,103,.16);}[class~="flight-badge"]{box-shadow:inset 0 1p
+x 0 rgba(255,255,255,.12);}[class~="flight-badge"]{font:7px var(--mono);}[class~
+="flight-badge"]{letter-spacing:.07em;}[class~="quote-panel"]{position:relative;
+}[class~="quote-panel"]{z-index:2;}[class~="quote-panel"]{flex:0 0 auto;}[class~
+="quote-panel"]{min-height:0;}[class~="quote-panel"]{padding:10px 12px 9px;}[cla
+ss~="quote-panel"]{border:1px solid rgba(255,255,255,.22);}[class~="quote-panel"
+]{border-radius:14px;}[class~="quote-panel"]{background:linear-gradient(135deg, 
+rgba(255,255,255,.18), rgba(255,255,255,.055));}[class~="quote-panel"]{box-shado
+w:inset 0 1px 0 rgba(255,255,255,.22), 0 6px 16px rgba(52,10,87,.09);}[class~="q
+uote-kicker"]{display:flex;}[class~="quote-kicker"]{justify-content:space-betwee
+n;}[class~="quote-kicker"]{gap:8px;}[class~="quote-kicker"]{color:rgba(255,255,2
+55,.75);}[class~="quote-kicker"]{font:7px var(--mono);}[class~="quote-kicker"]{l
+etter-spacing:.08em;}[class~="quote-ref"]{color:#ffda80;}[class~="quote-panel p"
+]{margin:6px 0 7px;}[class~="quote-panel p"]{max-width:217.50pt;}[class~="quote-
+panel p"]{color:white;}[class~="quote-panel p"]{font-size:clamp(12px, 3.35vw, 14
+px);}[class~="quote-panel p"]{font-weight:500;}[class~="quote-panel p"]{line-hei
+ght:1.34;}[class~="quote-panel p"]{letter-spacing:-.025em;}[class~="quote-signal
+"]{display:flex;}[class~="quote-signal"]{align-items:center;}[class~="quote-sign
+al"]{gap:3px;}[class~="quote-signal"]{height:7.50pt;}[class~="quote-signal"]{opa
+city:.83;}[class~="quote-signal span"]{display:block;}[class~="quote-signal span
+"]{width:2.25pt;}[class~="quote-signal span"]{height:3.75pt;}[class~="quote-sign
+al span"]{border-radius:2px;}[class~="quote-signal span"]{background:#ffdc7b;}[c
+lass~="quote-signal span"]{box-shadow:0 0 5px rgba(255,220,123,.35);}[class~="qu
+ote-signal span:nth-child(3n)"]{height:6.75pt;}[class~="quote-signal span:nth-ch
+ild(4n)"]{height:5.25pt;}[class~="quote-signal span:nth-child(5n)"]{height:3.00p
+t;}[class~="route-panel"]{position:relative;}[class~="route-panel"]{z-index:2;}[
+class~="route-panel"]{flex:0 0 auto;}[class~="route-panel"]{padding:10px 12px 9p
+x;}[class~="route-panel"]{overflow:hidden;}[class~="route-panel"]{border:1px sol
+id rgba(255,255,255,.26);}[class~="route-panel"]{border-radius:15px;}[class~="ro
+ute-panel"]{background:linear-gradient(135deg, rgba(54,11,92,.46), rgba(49,10,81
+,.23));}[class~="route-panel"]{box-shadow:inset 0 1px 0 rgba(255,255,255,.16), 0
+ 9px 18px rgba(45,10,79,.16);}[class~="route-heading"]{position:relative;}[class
+~="route-heading"]{z-index:1;}[class~="route-heading"]{display:flex;}[class~="ro
+ute-heading"]{justify-content:space-between;}[class~="route-heading"]{color:rgba
+(255,255,255,.66);}[class~="route-heading"]{font:7px var(--mono);}[class~="route
+-heading"]{letter-spacing:.12em;}[class~="route-heading b"]{color:#ffdb75;}[clas
+s~="route-heading b"]{font-size:0.1042in;}[class~="route-main"]{position:relativ
+e;}[class~="route-main"]{z-index:1;}[class~="route-main"]{display:grid;}[class~=
+"route-main"]{grid-template-columns:1fr minmax(46px, .7fr) 1fr;}[class~="route-m
+ain"]{align-items:center;}[class~="route-main"]{gap:6px;}[class~="route-main"]{p
+adding:8px 0 7px;}[class~="route-point"]{display:flex;}[class~="route-point"]{fl
+ex-direction:column;}[class~="route-point"]{min-width:0;}[class~="micro-label"]{
+color:rgba(255,255,255,.62);}[class~="micro-label"]{font:7px var(--mono);}[class
+~="micro-label"]{letter-spacing:.12em;}[class~="route-point strong"]{margin-top:
+-1px;}[class~="route-point strong"]{color:#fff;}[class~="route-point strong"]{fo
+nt-size:clamp(32px, 9vw, 42px);}[class~="route-point strong"]{line-height:.98;}[
+class~="route-point strong"]{font-weight:700;}[class~="route-point strong"]{lett
+er-spacing:-.075em;}[class~="route-point small"]{overflow:hidden;}[class~="route
+-point small"]{color:rgba(255,255,255,.76);}[class~="route-point small"]{font:7p
+x var(--mono);}[class~="route-point small"]{letter-spacing:.03em;}[class~="route
+-point small"]{white-space:nowrap;}[class~="route-point small"]{text-overflow:el
+lipsis;}[class~="route-destination"]{text-align:right;}[class~="route-destinatio
+n"]{align-items:flex-end;}[class~="route-connector"]{display:flex;}[class~="rout
+e-connector"]{align-items:center;}[class~="route-connector"]{gap:3px;}[class~="r
+oute-connector"]{color:#ffdf7c;}[class~="route-connector svg"]{width:16.50pt;}[c
+lass~="route-connector svg"]{flex:0 0 22px;}[class~="route-connector svg"]{filte
+r:drop-shadow(0 1px 4px rgba(255,220,123,.35));}[class~="route-line"]{height:0.7
+5pt;}[class~="route-line"]{flex:1 1 auto;}[class~="route-line"]{min-width:3.75pt
+;}[class~="route-line"]{background:repeating-linear-gradient(90deg, rgba(255,224
+,132,.8) 0 3px, transparent 3px 6px);}[class~="flight-meta"]{position:relative;}
+[class~="flight-meta"]{z-index:1;}[class~="flight-meta"]{display:grid;}[class~="
+flight-meta"]{grid-template-columns:repeat(4, 1fr);}[class~="flight-meta"]{paddi
+ng-top:0.4375pc;}[class~="flight-meta"]{border-top:1px solid rgba(255,255,255,.2
+);}[class~="flight-meta div"]{display:flex;}[class~="flight-meta div"]{flex-dire
+ction:column;}[class~="flight-meta div"]{gap:3px;}[class~="flight-meta div"]{min
+-width:0;}[class~="flight-meta span"]{color:rgba(255,255,255,.58);}[class~="flig
+ht-meta span"]{font:6px var(--mono);}[class~="flight-meta span"]{letter-spacing:
+.12em;}[class~="flight-meta b"]{color:#fff0c2;}[class~="flight-meta b"]{font:9px
+ var(--mono);}[class~="flight-meta b"]{letter-spacing:.04em;}[class~="route-deco
+ration"]{position:absolute;}[class~="route-decoration"]{top:14px;}[class~="route
+-decoration"]{right:42%;}[class~="route-decoration"]{width:33.00pt;}[class~="rou
+te-decoration"]{height:33.00pt;}[class~="route-decoration"]{border:1px solid rgb
+a(255,255,255,.08);}[class~="route-decoration"]{border-radius:50%;}[class~="iden
+tity-panel"]{position:relative;}[class~="identity-panel"]{z-index:2;}[class~="id
+entity-panel"]{display:grid;}[class~="identity-panel"]{grid-template-columns:83p
+x minmax(0, 1fr) 33px;}[class~="identity-panel"]{align-items:center;}[class~="id
+entity-panel"]{gap:11px;}[class~="identity-panel"]{min-height:79.50pt;}[class~="
+identity-panel"]{flex:1 1 106px;}[class~="identity-panel"]{padding:0.6250pc;}[cl
+ass~="identity-panel"]{border:1px solid rgba(255,255,255,.46);}[class~="identity
+-panel"]{border-radius:15px;}[class~="identity-panel"]{background:linear-gradien
+t(130deg, rgba(255,255,255,.96), rgba(255,239,251,.9));}[class~="identity-panel"
+]{color:var(--ink);}[class~="identity-panel"]{box-shadow:0 10px 18px rgba(46,10,
+77,.19), inset 0 1px 0 white;}[class~="portrait-frame"]{position:relative;}[clas
+s~="portrait-frame"]{width:62.25pt;}[class~="portrait-frame"]{height:66.00pt;}[c
+lass~="portrait-frame"]{overflow:hidden;}[class~="portrait-frame"]{border:2px so
+lid white;}[class~="portrait-frame"]{border-radius:10px;}[class~="portrait-frame
+"]{background:linear-gradient(145deg, #f9a9d5, #a47aec 65%, #ffd27b);}[class~="p
+ortrait-frame"]{box-shadow:0 3px 10px rgba(66,21,96,.2);}[class~="portrait-place
+holder"]{position:absolute;}[class~="portrait-placeholder"]{inset:0;}[class~="po
+rtrait-placeholder"]{display:flex;}[class~="portrait-placeholder"]{flex-directio
+n:column;}[class~="portrait-placeholder"]{align-items:center;}[class~="portrait-
+placeholder"]{justify-content:center;}[class~="portrait-placeholder"]{gap:3px;}[
+class~="portrait-placeholder"]{color:#61228a;}[class~="portrait-placeholder"]{ba
+ckground:linear-gradient(145deg, rgba(255,255,255,.45), transparent);}[class~="p
+ortrait-placeholder svg"]{width:36.75pt;}[class~="portrait-placeholder svg"]{hei
+ght:36.75pt;}[class~="portrait-placeholder svg"]{filter:drop-shadow(0 2px 2px rg
+ba(255,255,255,.4));}[class~="portrait-placeholder span"]{font:6px var(--mono);}
+[class~="portrait-placeholder span"]{letter-spacing:.1em;}[class~="portrait-imag
+e"]{display:none;}[class~="portrait-image"]{width:100%;}[class~="portrait-image"
+]{height:100%;}[class~="portrait-image"]{object-fit:cover;}[class~="portrait-cor
+ner"]{position:absolute;}[class~="portrait-corner"]{right:5px;}[class~="portrait
+-corner"]{top:5px;}[class~="portrait-corner"]{width:7.50pt;}[class~="portrait-co
+rner"]{height:7.50pt;}[class~="portrait-corner"]{border-top:2px solid white;}[cl
+ass~="portrait-corner"]{border-right:2px solid white;}[class~="portrait-scan"]{p
+osition:absolute;}[class~="portrait-scan"]{left:0;}[class~="portrait-scan"]{righ
+t:0;}[class~="portrait-scan"]{top:-20%;}[class~="portrait-scan"]{height:15%;}[cl
+ass~="portrait-scan"]{background:linear-gradient(transparent, rgba(255,255,255,.
+55), transparent);}[class~="portrait-scan"]{opacity:.65;}[class~="portrait-scan"
+]{animation:scan 4.8s ease-in-out infinite;}[class~="portrait-scan"]{pointer-eve
+nts:none;}[class~="identity-copy"]{min-width:0;}[class~="identity-copy"]{align-s
+elf:center;}[class~="eyebrow"]{margin:0 0 4px;}[class~="eyebrow"]{color:#8c5492;
+}[class~="eyebrow"]{font:6px var(--mono);}[class~="eyebrow"]{letter-spacing:.09e
+m;}[class~="identity-copy h1"]{overflow:hidden;}[class~="identity-copy h1"]{marg
+in:0;}[class~="identity-copy h1"]{color:#351044;}[class~="identity-copy h1"]{fon
+t-size:clamp(18px, 5.3vw, 23px);}[class~="identity-copy h1"]{font-weight:700;}[c
+lass~="identity-copy h1"]{line-height:1.03;}[class~="identity-copy h1"]{letter-s
+pacing:-.065em;}[class~="identity-copy h1"]{text-overflow:ellipsis;}[class~="ide
+ntity-copy h1"]{white-space:nowrap;}[class~="identity-copy h1 span"]{color:#ec36
+98;}[class~="identity-role"]{margin:4px 0 6px;}[class~="identity-role"]{color:#7
+1398b;}[class~="identity-role"]{font:7px var(--mono);}[class~="identity-role"]{l
+etter-spacing:.09em;}[class~="tag-list"]{display:flex;}[class~="tag-list"]{flex-
+wrap:wrap;}[class~="tag-list"]{align-items:center;}[class~="tag-list"]{gap:4px;}
+[class~="tag-list"]{width:100%;}[class~="tag-list"]{max-height:none;}[class~="ta
+g-list"]{overflow:visible;}[class~="tag-list"]{padding:0;}[class~="tag-list span
+"]{display:inline-flex;}[class~="tag-list span"]{align-items:center;}[class~="ta
+g-list span"]{max-width:100%;}[class~="tag-list span"]{padding:3px 5px;}[class~=
+"tag-list span"]{border:1px solid rgba(130, 53, 156, .19);}[class~="tag-list spa
+n"]{border-radius:4px;}[class~="tag-list span"]{background:rgba(239, 220, 255, .
+68);}[class~="tag-list span"]{color:#65318a;}[class~="tag-list span"]{font:6px v
+ar(--mono);}[class~="tag-list span"]{letter-spacing:-.015em;}[class~="tag-list s
+pan"]{white-space:normal;}[class~="tag-list span"]{overflow-wrap:anywhere;}[clas
+s~="security-stamp"]{display:flex;}[class~="security-stamp"]{flex-direction:colu
+mn;}[class~="security-stamp"]{align-items:center;}[class~="security-stamp"]{just
+ify-content:center;}[class~="security-stamp"]{width:23.25pt;}[class~="security-s
+tamp"]{height:29.25pt;}[class~="security-stamp"]{border:1px solid rgba(210,112,4
+9,.65);}[class~="security-stamp"]{border-radius:7px;}[class~="security-stamp"]{c
+olor:#d15a55;}[class~="security-stamp"]{transform:rotate(8deg);}[class~="securit
+y-stamp"]{background:rgba(255,214,145,.18);}[class~="security-stamp span"]{font-
+size:0.1458in;}[class~="security-stamp span"]{font-weight:700;}[class~="security
+-stamp span"]{letter-spacing:-.1em;}[class~="security-stamp small"]{font:5px var
+(--mono);}[class~="security-stamp small"]{letter-spacing:.08em;}[class~="perfora
+tion"]{position:relative;}[class~="perforation"]{z-index:3;}[class~="perforation
+"]{display:flex;}[class~="perforation"]{align-items:center;}[class~="perforation
+"]{gap:7px;}[class~="perforation"]{height:14.25pt;}[class~="perforation"]{flex:0
+ 0 19px;}[class~="perforation"]{padding:0 18px;}[class~="perforation"]{backgroun
+d:linear-gradient(90deg, #ffb052, #ffd36c 48%, #ff9a55);}[class~="perforation"]{
+color:#8c3b68;}[class~="tear-line"]{height:0.75pt;}[class~="tear-line"]{flex:1;}
+[class~="tear-line"]{background:repeating-linear-gradient(90deg, rgba(111,34,106
+,.58) 0 3px, transparent 3px 6px);}[class~="tear-label"]{font:6px var(--mono);}[
+class~="tear-label"]{letter-spacing:.09em;}[class~="tear-label"]{white-space:now
+rap;}[class~="tear-notch"]{position:absolute;}[class~="tear-notch"]{top:50%;}[cl
+ass~="tear-notch"]{width:11.25pt;}[class~="tear-notch"]{height:11.25pt;}[class~=
+"tear-notch"]{border-radius:50%;}[class~="tear-notch"]{background:#d1d6f5;}[clas
+s~="tear-notch"]{transform:translateY(-50%);}[class~="tear-notch"]{box-shadow:in
+set 0 1px 2px rgba(52,32,99,.1);}[class~="notch-left"]{left:-8px;}[class~="notch
+-right"]{right:-8px;}[class~="ticket-stub"]{position:relative;}[class~="ticket-s
+tub"]{z-index:2;}[class~="ticket-stub"]{display:flex;}[class~="ticket-stub"]{fle
+x:0 0 auto;}[class~="ticket-stub"]{flex-direction:column;}[class~="ticket-stub"]
+{gap:8px;}[class~="ticket-stub"]{padding:9px clamp(16px, 4.4vw, 22px) 13px;}[cla
+ss~="ticket-stub"]{color:var(--ink);}[class~="ticket-stub"]{background:linear-gr
+adient(115deg, #ffb457 0%, #ffd16a 42%, #ff9b57 100%);}[class~="ticket-stub"]{bo
+x-shadow:inset 0 1px 0 rgba(255,255,255,.55);}[class~="ticket-stub::before"]{con
+tent:"";}[class~="ticket-stub::before"]{position:absolute;}[class~="ticket-stub:
+:before"]{inset:0;}[class~="ticket-stub::before"]{opacity:.13;}[class~="ticket-s
+tub::before"]{pointer-events:none;}[class~="ticket-stub::before"]{background-ima
+ge:radial-gradient(rgba(91,35,91,.6) .6px, transparent .6px);}[class~="ticket-st
+ub::before"]{background-size:7px 7px;}[class~="stub-heading"]{position:relative;
+}[class~="stub-heading"]{display:flex;}[class~="stub-heading"]{justify-content:s
+pace-between;}[class~="stub-heading"]{gap:8px;}[class~="stub-heading"]{color:#6c
+285f;}[class~="stub-heading"]{font:7px var(--mono);}[class~="stub-heading"]{lett
+er-spacing:.11em;}[class~="stub-heading b"]{color:#9d337a;}[class~="stub-heading
+ b"]{font-size:0.1042in;}[class~="social-grid"]{position:relative;}[class~="soci
+al-grid"]{display:grid;}[class~="social-grid"]{grid-template-columns:repeat(5, m
+inmax(0, 1fr));}[class~="social-grid"]{gap:7px;}[class~="social-link"]{display:f
+lex;}[class~="social-link"]{flex-direction:column;}[class~="social-link"]{align-
+items:center;}[class~="social-link"]{justify-content:center;}[class~="social-lin
+k"]{gap:4px;}[class~="social-link"]{min-width:0;}[class~="social-link"]{min-heig
+ht:36.00pt;}[class~="social-link"]{padding:5px 2px 4px;}[class~="social-link"]{b
+order:1px solid rgba(113,43,99,.24);}[class~="social-link"]{border-radius:10px;}
+[class~="social-link"]{color:#60275e;}[class~="social-link"]{background:linear-g
+radient(145deg, rgba(255,250,233,.76), rgba(255,228,174,.54));}[class~="social-l
+ink"]{box-shadow:0 3px 0 rgba(127,58,87,.18), inset 0 1px 0 rgba(255,255,255,.8)
+;}[class~="social-link"]{text-decoration:none;}[class~="social-link"]{transition
+:transform .16s ease, box-shadow .16s ease, background .16s ease, color .16s eas
+e;}[class~="social-link"]{-webkit-tap-highlight-color:transparent;}[class~="soci
+al-link:hover"]{transform:translateY(-3px);}[class~="social-link:hover"]{color:#
+fff;}[class~="social-link:hover"]{background:linear-gradient(145deg, #a747c4, #6
+2299c);}[class~="social-link:hover"]{box-shadow:0 6px 12px rgba(94,35,120,.22), 
+inset 0 1px 0 rgba(255,255,255,.25);}[class~="social-link:active"]{transform:tra
+nslateY(2px) scale(.97);}[class~="social-link:active"]{box-shadow:0 1px 0 rgba(1
+27,58,87,.2), inset 0 2px 5px rgba(74,28,88,.16);}[class~="social-link:focus-vis
+ible, .copy-pass:focus-visible"]{outline:2px solid #6a2aa3;}[class~="social-link
+:focus-visible, .copy-pass:focus-visible"]{outline-offset:3px;}[class~="social-i
+con"]{display:grid;}[class~="social-icon"]{place-items:center;}[class~="social-i
+con"]{width:14.25pt;}[class~="social-icon"]{height:14.25pt;}[class~="social-icon
+ svg"]{width:13.50pt;}[class~="social-icon svg"]{height:13.50pt;}[class~="social
+-link > span:last-child"]{overflow:hidden;}[class~="social-link > span:last-chil
+d"]{max-width:100%;}[class~="social-link > span:last-child"]{font:6px var(--mono
+);}[class~="social-link > span:last-child"]{letter-spacing:.015em;}[class~="soci
+al-link > span:last-child"]{text-overflow:ellipsis;}[class~="social-link > span:
+last-child"]{white-space:nowrap;}[class~="stub-footer"]{position:relative;}[clas
+s~="stub-footer"]{display:grid;}[class~="stub-footer"]{grid-template-columns:1fr
+ auto auto;}[class~="stub-footer"]{align-items:end;}[class~="stub-footer"]{gap:1
+0px;}[class~="stub-footer"]{padding-top:0.4375pc;}[class~="stub-footer"]{border-
+top:1px dashed rgba(108,40,95,.32);}[class~="barcode-wrap"]{display:flex;}[class
+~="barcode-wrap"]{flex-direction:column;}[class~="barcode-wrap"]{gap:3px;}[class
+~="barcode-wrap"]{min-width:0;}[class~="barcode"]{display:flex;}[class~="barcode
+"]{align-items:stretch;}[class~="barcode"]{height:12.75pt;}[class~="barcode"]{ga
+p:1px;}[class~="barcode"]{width:100%;}[class~="barcode"]{max-width:93.00pt;}[cla
+ss~="barcode"]{overflow:hidden;}[class~="barcode i"]{display:block;}[class~="bar
+code i"]{min-width:0.75pt;}[class~="barcode i"]{flex:1 1 auto;}[class~="barcode 
+i"]{background:#612653;}[class~="barcode-wrap > span"]{color:#7b3c69;}[class~="b
+arcode-wrap > span"]{font:6px var(--mono);}[class~="barcode-wrap > span"]{letter
+-spacing:.13em;}[class~="footer-brand"]{display:flex;}[class~="footer-brand"]{fl
+ex-direction:column;}[class~="footer-brand"]{align-items:center;}[class~="footer
+-brand"]{color:#84376c;}[class~="footer-brand"]{font-size:0.0938in;}[class~="foo
+ter-brand"]{font-weight:700;}[class~="footer-brand"]{letter-spacing:.12em;}[clas
+s~="footer-brand"]{white-space:nowrap;}[class~="footer-brand small"]{margin-top:
+0.1250pc;}[class~="footer-brand small"]{font:5px var(--mono);}[class~="footer-br
+and small"]{letter-spacing:.1em;}[class~="copy-pass"]{display:flex;}[class~="cop
+y-pass"]{align-items:center;}[class~="copy-pass"]{gap:4px;}[class~="copy-pass"]{
+padding:6px 7px;}[class~="copy-pass"]{border:1px solid rgba(108,40,95,.35);}[cla
+ss~="copy-pass"]{border-radius:7px;}[class~="copy-pass"]{color:#6c285f;}[class~=
+"copy-pass"]{background:rgba(255,249,230,.4);}[class~="copy-pass"]{font:6px var(
+--mono);}[class~="copy-pass"]{letter-spacing:.06em;}[class~="copy-pass"]{cursor:
+pointer;}[class~="copy-pass"]{transition:transform .16s ease, background .16s ea
+se;}[class~="copy-pass:hover"]{background:rgba(255,255,255,.7);}[class~="copy-pa
+ss:hover"]{transform:translateY(-1px);}[class~="copy-pass:active"]{transform:tra
+nslateY(1px);}[class~="toast"]{position:absolute;}[class~="toast"]{z-index:20;}[
+class~="toast"]{left:50%;}[class~="toast"]{bottom:13px;}[class~="toast"]{padding
+:8px 12px;}[class~="toast"]{border:1px solid rgba(255,255,255,.26);}[class~="toa
+st"]{border-radius:999px;}[class~="toast"]{color:#fff;}[class~="toast"]{backgrou
+nd:rgba(48,12,76,.93);}[class~="toast"]{box-shadow:0 8px 22px rgba(34,12,60,.23)
+;}[class~="toast"]{font:8px var(--mono);}[class~="toast"]{letter-spacing:.1em;}[
+class~="toast"]{opacity:0;}[class~="toast"]{pointer-events:none;}[class~="toast"
+]{transform:translate(-50%, 8px);}[class~="toast"]{transition:opacity .2s ease, 
+transform .2s ease;}[class~="toast"]{white-space:nowrap;}[class~="toast.show"]{o
+pacity:1;}[class~="toast.show"]{transform:translate(-50%, 0);}[class~="outside-n
+ote"]{position:absolute;}[class~="outside-note"]{bottom:max(8px, env(safe-area-i
+nset-bottom));}[class~="outside-note"]{left:50%;}[class~="outside-note"]{margin:
+0;}[class~="outside-note"]{color:rgba(72,48,110,.56);}[class~="outside-note"]{fo
+nt:7px var(--mono);}[class~="outside-note"]{letter-spacing:.15em;}[class~="outsi
+de-note"]{transform:translateX(-50%);}[class~="outside-note"]{white-space:nowrap
+;}[class~="outside-note b"]{color:#8e3ba8;}23%{opacity:.8;}40%, 100%{transform:t
+ranslateX(260%) rotate(24deg);}40%, 100%{opacity:0;}55%, 100%{top:115%;}[class~=
+"ticket-face"]{gap:7px;}[class~="ticket-face"]{padding:13px 14px 10px;}[class~="
+airline-mark"]{width:24.75pt;}[class~="airline-mark"]{height:24.75pt;}[class~="a
+irline-mark"]{flex-basis:33px;}[class~="airline-name"]{font-size:0.1458in;}[clas
+s~="flight-badge"]{padding:6px 7px;}[class~="flight-badge"]{font-size:0.0625in;}
+[class~="quote-panel"]{padding:8px 10px 7px;}[class~="quote-panel p"]{margin:5px
+ 0 6px;}[class~="quote-panel p"]{font-size:0.1250in;}[class~="route-panel"]{padd
+ing:8px 10px 8px;}[class~="route-main"]{padding:6px 0;}[class~="route-point stro
+ng"]{font-size:0.3333in;}[class~="identity-panel"]{grid-template-columns:70px mi
+nmax(0, 1fr) 27px;}[class~="identity-panel"]{gap:8px;}[class~="identity-panel"]{
+min-height:69.00pt;}[class~="identity-panel"]{padding:0.5000pc;}[class~="portrai
+t-frame"]{width:52.50pt;}[class~="portrait-frame"]{height:57.00pt;}[class~="port
+rait-placeholder svg"]{width:32.25pt;}[class~="portrait-placeholder svg"]{height
+:32.25pt;}[class~="security-stamp"]{width:20.25pt;}[class~="security-stamp"]{hei
+ght:26.25pt;}[class~="identity-copy h1"]{font-size:0.1875in;}[class~="identity-r
+ole"]{margin:3px 0 5px;}[class~="tag-list span"]{padding:2px 4px;}[class~="tag-l
+ist span"]{font-size:0.0521in;}[class~="ticket-stub"]{gap:6px;}[class~="ticket-s
+tub"]{padding:8px 14px 10px;}[class~="social-grid"]{gap:5px;}[class~="social-lin
+k"]{min-height:32.25pt;}[class~="social-link"]{border-radius:8px;}[class~="socia
+l-link > span:last-child"]{font-size:0.0521in;}[class~="stub-footer"]{gap:6px;}[
+class~="ticket-face"]{gap:6px;}[class~="ticket-face"]{padding-top:0.7500pc;}[cla
+ss~="ticket-face"]{padding-bottom:0.5000pc;}[class~="quote-panel"]{padding-top:0
+.4375pc;}[class~="quote-panel"]{padding-bottom:0.3750pc;}[class~="quote-panel p"
+]{margin:4px 0 5px;}[class~="quote-panel p"]{font-size:0.1198in;}[class~="quote-
+panel p"]{line-height:1.28;}[class~="route-panel"]{padding-top:0.4375pc;}[class~
+="route-panel"]{padding-bottom:0.3750pc;}[class~="route-main"]{padding:5px 0;}[c
+lass~="route-point strong"]{font-size:0.3229in;}[class~="identity-panel"]{min-he
+ight:66.00pt;}[class~="portrait-frame"]{height:54.00pt;}[class~="ticket-stub"]{g
+ap:6px;}[class~="ticket-stub"]{padding-top:0.4375pc;}[class~="ticket-stub"]{padd
+ing-bottom:0.5625pc;}[class~="social-link"]{min-height:31.50pt;}[class~="outside
+-note"]{display:none;}[class~="ticket-face"]{gap:5px;}[class~="ticket-face"]{pad
+ding:10px 13px 7px;}[class~="airline-mark"]{width:22.50pt;}[class~="airline-mark
+"]{height:22.50pt;}[class~="airline-mark"]{flex-basis:30px;}[class~="airline-mar
+k svg"]{width:17.25pt;}[class~="airline-mark svg"]{height:17.25pt;}[class~="airl
+ine-name"]{font-size:0.1354in;}[class~="airline-subtitle"]{font-size:0.0625in;}[
+class~="quote-panel"]{padding:6px 9px 5px;}[class~="quote-kicker, .route-heading
+"]{font-size:0.0625in;}[class~="quote-panel p"]{font-size:0.1042in;}[class~="quo
+te-panel p"]{line-height:1.22;}[class~="quote-panel p"]{margin:3px 0 4px;}[class
+~="quote-signal"]{height:5.25pt;}[class~="route-panel"]{padding:6px 9px 5px;}[cl
+ass~="route-point strong"]{font-size:0.2917in;}[class~="route-point small"]{font
+-size:0.0625in;}[class~="flight-meta"]{padding-top:0.3125pc;}[class~="flight-met
+a b"]{font-size:0.0833in;}[class~="identity-panel"]{min-height:56.25pt;}[class~=
+"identity-panel"]{grid-template-columns:62px minmax(0, 1fr) 24px;}[class~="ident
+ity-panel"]{gap:7px;}[class~="identity-panel"]{padding:0.3750pc;}[class~="portra
+it-frame"]{width:46.50pt;}[class~="portrait-frame"]{height:48.00pt;}[class~="por
+trait-placeholder svg"]{width:27.00pt;}[class~="portrait-placeholder svg"]{heigh
+t:27.00pt;}[class~="portrait-placeholder span"]{font-size:0.0521in;}[class~="ide
+ntity-copy h1"]{font-size:0.1667in;}[class~="identity-role"]{margin:2px 0 3px;}[
+class~="identity-role"]{font-size:0.0625in;}[class~="eyebrow"]{font-size:0.0521i
+n;}[class~="eyebrow"]{margin-bottom:0.1250pc;}[class~="tag-list span"]{font-size
+:0.0521in;}[class~="tag-list span"]{padding:2px 3px;}[class~="security-stamp"]{w
+idth:17.25pt;}[class~="security-stamp"]{height:23.25pt;}[class~="security-stamp 
+span"]{font-size:0.1146in;}[class~="perforation"]{height:11.25pt;}[class~="perfo
+ration"]{flex-basis:15px;}[class~="ticket-stub"]{gap:5px;}[class~="ticket-stub"]
+{padding:6px 13px 7px;}[class~="stub-heading"]{font-size:0.0625in;}[class~="soci
+al-grid"]{gap:4px;}[class~="social-link"]{min-height:27.00pt;}[class~="social-li
+nk"]{gap:2px;}[class~="social-link"]{padding:3px 1px;}[class~="social-icon, .soc
+ial-icon svg"]{width:11.25pt;}[class~="social-icon, .social-icon svg"]{height:11
+.25pt;}[class~="social-link > span:last-child"]{font-size:0.0521in;}[class~="stu
+b-footer"]{padding-top:0.3125pc;}[class~="stub-footer"]{gap:5px;}[class~="barcod
+e"]{height:9.75pt;}[class~="footer-brand"]{font-size:0.0833in;}[class~="copy-pas
+s"]{padding:4px 5px;}[class~="copy-pass"]{font-size:0.0521in;}
